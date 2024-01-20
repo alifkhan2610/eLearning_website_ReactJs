@@ -46,13 +46,13 @@ const Navbar = () => {
             Courses
           </Link>
           <Link
-            to="Reviews"
+            to="reviews"
             spy={true}
             smooth={true}
             duration={500}
             className="hover:text-green-500  transition-all"
           >
-            reviews
+            Reviews
           </Link>
           <Link
             to="contact"
